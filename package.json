@@ -1,0 +1,21 @@
+{
+  "name": "pizzahub-payment",
+  "version": "1.0.0",
+  "description": "Mock API for the payment implementation in PizzaHub",
+  "main": "index.js",
+  "repository": "https://github.com/reimarrosas/pizzahub-payment.git",
+  "author": "Reimar Rosas <reimarrosas0208@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "stripe": "^8.219.0"
+  }
+}
